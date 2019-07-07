@@ -8,6 +8,21 @@ module.exports = {
     ],
     scripts: [{ elem: 'js', url: 'experiment.min.js' }],
     content: [
-        { block : 'head' }
+        { 
+            block : 'head',
+            content: {
+                block: 'layout',
+                content: [
+                    {
+                        elem: 'left',
+                        content: 'left here'
+                    },
+                    {
+                        elem: 'right',
+                        content: 'right here'
+                    }
+                ]
+            }
+        }
     ]
 };
