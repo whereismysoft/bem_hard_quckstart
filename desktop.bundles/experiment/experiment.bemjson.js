@@ -4,9 +4,9 @@ module.exports = {
     favicon: '/favicon.ico',
     head: [
         { elem: 'meta', attrs: { name: 'description', content: '' }},
-        { elem: 'css', url: 'index.min.css' }
+        { elem: 'css', url: 'experiment.min.css' }
     ],
-    scripts: [{ elem: 'js', url: 'index.min.js' }],
+    scripts: [{ elem: 'js', url: 'experiment.min.js' }],
     content: [
         { block : 'head' }
     ]
